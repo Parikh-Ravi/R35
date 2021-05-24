@@ -197,15 +197,12 @@ tab <- CreateTableOne(vars = vars, strata = "R", factorVars = cat.var, data = ta
 ## Show table with SMD
 tab1 <- print(tab,showAllLevels = TRUE, nonnormal = cont.vars,smd = TRUE)
 
-
 ### overall table
 vars <- c('count.enc', 'PAT_AGE', 'age.c','gender', 'elix_count','ECOG.c', 'race', 'insurance','stage4', 'subtype')
 tab <- CreateTableOne(vars = vars, factorVars = cat.var, data = table1, test = T)
 ## Show table with SMD
 tab1 <- print(tab,showAllLevels = TRUE, nonnormal = cont.vars,smd = TRUE)
 
-setwd("/Users/manqingl/Box Sync/R35/Results")
-write.csv(tab1, file = "Table1.overall.csv")
 
 
 
