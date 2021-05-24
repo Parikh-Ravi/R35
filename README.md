@@ -1,6 +1,7 @@
 # Machine Learning Algorithms incorporating Electronic Health Record Data, Patient-Reported Outcomes, or Both to Predict Mortality for Outpatients with Cancer 
 ## Contents
-Codes for all tables and figures included in this paper
+
+### Main results
 - Table 1
   - R35 Table 1.R
 - Table 2
@@ -11,3 +12,10 @@ Codes for all tables and figures included in this paper
 - Figure 2
   - R35 Figure 2.R
 
+### Supplemental results
+- Supplemental Figure 2
+  - Supplemental Figure 2.R
+- Supplemental Table 3
+  - Supplemental Table 3.R
+- Supplemental Table 4
+  - Supplemental Table 4.R
